@@ -8,7 +8,7 @@ const people = [
     name: 'Regina',
     role: 'UI Engineer',
     photoUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80',
-    bio: 'Ava enjoys turning complex flows into calm, intuitive interfaces.',
+    bio: 'Regina enjoys turning complex flows into calm, intuitive interfaces.',
     githubUrl: 'https://github.com/avachen',
   },
   {
@@ -16,7 +16,7 @@ const people = [
     name: 'Richmond',
     role: 'Frontend Developer',
     photoUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80',
-    bio: 'Noah loves animation details and keeps every interaction feeling responsive.',
+    bio: 'Richmond loves animation details and keeps every interaction feeling responsive.',
     githubUrl: 'https://github.com/noahpatel',
   },
   {
@@ -24,7 +24,7 @@ const people = [
     name: 'Margaret',
     role: 'Product Designer',
     photoUrl: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80',
-    bio: 'Mina focuses on making the product feel polished and approachable.',
+    bio: 'Margaret focuses on making the product feel polished and approachable.',
     githubUrl: 'https://github.com/minaalvarez',
   },
   {
@@ -32,7 +32,7 @@ const people = [
     name: 'Faisal',
     role: 'React Specialist',
     photoUrl: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80',
-    bio: 'Liam enjoys building reusable components that scale without getting messy.',
+    bio: 'Faisal enjoys building reusable components that scale without getting messy.',
     githubUrl: 'https://github.com/liambrooks',
   },
   {
@@ -40,7 +40,7 @@ const people = [
     name: 'Rohi',
     role: 'Accessibility Lead',
     photoUrl: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=300&q=80',
-    bio: 'Sofia champions accessible experiences that work for everyone.',
+    bio: 'Rohi champions accessible experiences that work for everyone.',
     githubUrl: 'https://github.com/sofiakim',
   },
   {
@@ -48,7 +48,7 @@ const people = [
     name: 'Marlon',
     role: 'Full Stack Builder',
     photoUrl: 'https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=300&q=80',
-    bio: 'Ethan bridges design and data with thoughtful product engineering.',
+    bio: 'Marlon bridges design and data with thoughtful product engineering.',
     githubUrl: 'https://github.com/ethanrivera',
   },
 ]
