@@ -1,0 +1,80 @@
+.student-card {
+  min-height: 148px;
+  padding: 1.15rem 1.15rem 1.05rem;
+  cursor: pointer;
+  border: 1px solid #cbc7bb;
+  border-radius: 7px 5px 7px 5px;
+  background: #fcfaf4;
+  box-shadow: 2px 2px 0 rgba(76, 72, 59, 0.04);
+  transition: background-color 150ms ease, border-color 150ms ease, transform 150ms ease;
+}
+
+.student-card:hover {
+  border-color: #aeb699;
+  transform: translateY(-2px);
+}
+
+.student-card:focus-visible {
+  outline: 3px solid #78845c;
+  outline-offset: 3px;
+}
+
+.student-card--expanded {
+  border-color: #9da783;
+  background: #f7f7ee;
+}
+
+.student-card__topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.student-card__cohort {
+  margin: 0;
+  color: #66665e;
+  font-size: 0.87rem;
+}
+
+.student-card__badge {
+  flex: 0 0 auto;
+  padding: 0.2rem 0.45rem;
+  border-radius: 3px;
+  background: #e5e9d8;
+  color: #56613f;
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.student-card h2 {
+  margin: 1.35rem 0 0;
+  color: #30312b;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.38rem;
+  font-weight: 500;
+}
+
+.student-card__details {
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid #d3d8c2;
+  color: #54594a;
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
+
+.student-card__details p {
+  margin: 0 0 0.72rem;
+}
+
+.student-card__details a {
+  color: #56613f;
+  font-weight: 700;
+  text-underline-offset: 3px;
+}
+
+.student-card__details a:focus-visible {
+  outline: 2px solid #78845c;
+  outline-offset: 3px;
+}
