@@ -1,0 +1,10 @@
+export const products = [
+  { id: 'linen-tote', name: 'Linen Carryall', category: 'Bags', price: 42, image: 'https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=900&q=85', description: 'A softly structured everyday tote made from durable natural linen. Roomy enough for a market run, a laptop, and the little things that make a day feel considered.' },
+  { id: 'stoneware-mug', name: 'Morning Stoneware', category: 'Home', price: 28, image: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85', description: 'Hand-finished stoneware with a warm speckled glaze. A generous shape for slow mornings and long conversations.' },
+  { id: 'everyday-candle', name: 'Quiet Hour Candle', category: 'Home', price: 24, image: 'https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=85', description: 'Soy wax, cedar, and soft bergamot. Poured in small batches to bring a grounded glow to the end of the day.' },
+  { id: 'cotton-cap', name: 'Washed Cotton Cap', category: 'Wear', price: 32, image: 'https://images.unsplash.com/photo-1521369909029-2afed882baee?auto=format&fit=crop&w=900&q=85', description: 'A classic six-panel cap in washed cotton with an easy, lived-in fit. Finished with a subtle embroidered mark.' },
+  { id: 'daily-notebook', name: 'Daily Notes Journal', category: 'Paper', price: 18, image: 'https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=900&q=85', description: 'A tactile linen-bound journal with 160 pages of smooth, fountain-pen friendly paper for lists, plans, and daydreams.' },
+  { id: 'wooden-tray', name: 'Oak Catchall Tray', category: 'Home', price: 36, image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=900&q=85', description: 'Solid oak with rounded edges and a food-safe finish. A calm landing place for keys, jewelry, or a pocket full of finds.' },
+]
+
+export const categories = ['All', ...new Set(products.map((product) => product.category))]
